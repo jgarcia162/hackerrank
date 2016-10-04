@@ -1,3 +1,8 @@
+## Practicing with Python. Problems selected from HackerRank problem database.
+
+##Circular Array rotation, link to original question - https://www.hackerrank.com/challenges/circular-array-rotation
+
+
 import sys
 
 line = sys.stdin.readline().split()
