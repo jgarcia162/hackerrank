@@ -1,3 +1,8 @@
+## Practicing with Python. Problems selected from HackerRank problem database.
+
+##Circular Array rotation, link to original question - https://www.hackerrank.com/challenges/circular-array-rotation
+
+
 import sys
 
 line = sys.stdin.readline().split()
@@ -15,10 +20,6 @@ for elem in arrayline :
 left = array[:n-k]
 right = array[n-k:]
 rotatedarray = right + left
-# print line, n, k, q, n + k + q
-# print arrayline
-# print array
-# print rotatedarray
 
 for i in range(q):
 	query = sys.stdin.readline()
