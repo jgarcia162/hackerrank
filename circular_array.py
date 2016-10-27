@@ -15,10 +15,6 @@ for elem in arrayline :
 left = array[:n-k]
 right = array[n-k:]
 rotatedarray = right + left
-
-
-
-
 # print line, n, k, q, n + k + q
 # print arrayline
 # print array
