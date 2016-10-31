@@ -14,7 +14,7 @@ public static void main(String[] args) {
             n = scanner.next();
             printOddAndEvenCharacters(n);
         }
-    }
+}
     
     public static void printOddAndEvenCharacters(String n){
             String evenCharacters = "", oddCharacters = "";
