@@ -45,7 +45,9 @@ def printOddAndEvenCharacters(n):
 		else:
 			oddCharacters += n[i]
 		i+=1
-	print(evenCharacters +" "+oddCharacters)
+	print(evenCharacters),
+	print(oddCharacters)
+	# print(evenCharacters +" "+oddCharacters)
 
 
 
