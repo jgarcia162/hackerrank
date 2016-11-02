@@ -14,26 +14,3 @@ scanner = sys.stdin
 n = int(raw_input())
 arr = range(n)
 printElements(arr)
- # public static void main(String[] args) {
- #        Scanner in = new Scanner(System.in);
- #        int n = in.nextInt();
- #        int[] arr = new int[n];
- #        for(int i=0; i < n; i++){
- #            arr[i] = in.nextInt();
- #        }
- #        in.close();
- #        printElements(arr);
- #    }
-    
- #    public static void printElements(int[] array){
- #        for(int i = array.length-1;i >= 0;i--){
- #            System.out.print(array[i] + " ");
- #        }
- #    }
-
-
-
-
-
-
-
